@@ -14,6 +14,24 @@ body {
 }
 
 /* Сброс */
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul
+ {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+padding-left: 0;
+}
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
@@ -64,10 +82,19 @@ body {
     color: #404BBF;
 }
 
+.header-list {
+    display: flex;
+    gap: 40px;
+
+}
+
 .header-link {
     font-weight: 500;
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    
 }
+
+
 
 .first-logo,
 .current {
@@ -105,9 +132,8 @@ body {
 .hero-btn:hover,
 .hero-btn:focus,
 .filter-btn:hover,
-.filter-btn:focus,
-{
-background-color: #404BBF;
+.filter-btn:focus {
+    background-color: #404BBF;
 }
 
 /* Advantages */
