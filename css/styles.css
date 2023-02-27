@@ -42,7 +42,7 @@ ul {
     padding-left: 0;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -143,10 +143,10 @@ ul {
 
 /* -----------------Hero--------------- */
 .hero {
-    Height: 600px;
     background-color: #2E2F42;
     text-align: center;
-
+    padding-top: 188px;
+    padding-bottom: 292px;
 
 
 }
@@ -264,7 +264,7 @@ ul {
 
 .team-conteiner {
     text-align: center;
-    margin: 32px 16px;
+    padding: 32px 0;
 
 }
 
@@ -289,6 +289,7 @@ ul {
     color: #F4F4FD;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: inline-block;
 
 }
 
@@ -299,12 +300,17 @@ ul {
 
 /* ----------------Navigation filter----------------- */
 
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .filter-list {
     display: flex;
     margin-bottom: 72px;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
+
 
 }
 
@@ -333,6 +339,9 @@ ul {
 .filter-btn:focus {
     color: #ffffff;
     background-color: #404BBF;
+
+    border-radius: 4px;
+    border-color: #404BBF;
 }
 
 .cards-wrapper {
@@ -340,7 +349,7 @@ ul {
     flex-wrap: wrap;
     gap: 48px;
     column-gap: 24px;
-    padding-bottom: 120px;
+
 
 }
 
@@ -351,9 +360,7 @@ ul {
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
     border-top: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
 
 
 
